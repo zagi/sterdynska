@@ -1,0 +1,23 @@
+{
+    "name": "zagi/garage",
+    "version": "1.0.0",
+    "require": {
+        "slim/slim": "2.*",
+        "slim/views": "0.*",
+        "twig/twig": "1.*",
+        "twig/extensions": "*",
+        "itsgoingd/slim-facades": "dev-master",
+        "illuminate/database" : "5.*",
+        "cartalyst/sentry" : "2.*",
+        "ircmaxell/password-compat": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "src/",
+            "" : [
+                "controllers/",
+                "models/"
+            ]
+        }
+    }
+}
